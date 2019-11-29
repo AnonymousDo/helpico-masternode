@@ -121,9 +121,8 @@ masternodeprivkey='$key'
 # Download binaries for Linux
 mkdir helpico
 cd helpico
-wget https://github.com/AnonymousDo/Helpico/releases/download/final/Linux.tar.gz
-tar -xvf Linux.tar.gz
-cd Linux
+wget https://github.com/AnonymousDo/Helpico/releases/download/v1.0.1/Linux-deamon-x64.zip
+unzip Linux-deamon-x64.zip
 # Give permissions, move to bin folder and run
 chmod +x helpicod
 chmod +x helpico-cli
